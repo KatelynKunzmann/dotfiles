@@ -11,19 +11,31 @@
     Extract and copy font files to C:\Windows\fonts\
 
 5) Install Terminal Icons: https://github.com/devblackops/Terminal-Icons
+   
     Install-Module -Name Terminal-Icons -Repository PSGallery
+   
     Import-Module -Name Terminal-Icons
+   
                 OR
+   
     scoop bucket add extras
+   
     scoop install terminal-icons
+   
     
-6) Install autocompletion: https://github.com/PowerShell/PSReadLine
+7) Install autocompletion: https://github.com/PowerShell/PSReadLine
+'''
     Install-Module -Name PowerShellGet -Force
+   
     Exit
+   
     Install-Module PSReadLine -AllowPrerelease -Force
+   
     Import-Module PSReadLine
+'''
 
-7) Install z directory jumper
+9) Install z directory jumper
+    
     Install-Module -Name z -Force
 
 
