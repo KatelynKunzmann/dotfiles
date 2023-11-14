@@ -16,12 +16,6 @@
    
     Import-Module -Name Terminal-Icons
    
-                OR
-   
-    scoop bucket add extras
-   
-    scoop install terminal-icons
-   
     
 7) Install autocompletion: https://github.com/PowerShell/PSReadLine
 '''
