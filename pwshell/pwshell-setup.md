@@ -18,7 +18,7 @@
    
     
 7) Install autocompletion: https://github.com/PowerShell/PSReadLine
-'''
+
     Install-Module -Name PowerShellGet -Force
    
     Exit
@@ -26,7 +26,7 @@
     Install-Module PSReadLine -AllowPrerelease -Force
    
     Import-Module PSReadLine
-'''
+
 
 9) Install z directory jumper
     
